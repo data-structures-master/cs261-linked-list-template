@@ -35,7 +35,7 @@ jobs:
         with:
           test-name: Instantiation
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_instantiation
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_instantiation
           timeout: 10
           max-score: 1
 
@@ -45,7 +45,7 @@ jobs:
         with:
           test-name: No_Initial_Value
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_no_initial_value
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_no_initial_value
           timeout: 10
           max-score: 1
 
@@ -55,7 +55,7 @@ jobs:
         with:
           test-name: Initial_Value
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_initial_value
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_initial_value
           timeout: 10
           max-score: 1
 
@@ -65,7 +65,7 @@ jobs:
         with:
           test-name: Next_Points_To_Self
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_next
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_next
           timeout: 10
           max-score: 1
 
@@ -75,7 +75,7 @@ jobs:
         with:
           test-name: Previous_Points_To_Self
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_previous
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_previous
           timeout: 10
           max-score: 1
 
@@ -85,7 +85,7 @@ jobs:
         with:
           test-name: Sentinel_Node
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_sentinel_node
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_sentinel_node
           timeout: 10
           max-score: 1
 
@@ -95,7 +95,7 @@ jobs:
         with:
           test-name: Not_Sentinel_Node
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_not_sentinel_node
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_not_sentinel_node
           timeout: 10
           max-score: 1
 
@@ -105,7 +105,7 @@ jobs:
         with:
           test-name: Empty_List
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_empty
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_empty
           timeout: 10
           max-score: 1
 
@@ -115,7 +115,7 @@ jobs:
         with:
           test-name: Not_Empty_List
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_not_empty
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_not_empty
           timeout: 10
           max-score: 1
 
@@ -125,7 +125,7 @@ jobs:
         with:
           test-name: Empty_Is_Last_Node
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_empty_is_last_node
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_empty_is_last_node
           timeout: 10
           max-score: 1
 
@@ -135,7 +135,7 @@ jobs:
         with:
           test-name: Last_Of_Empty
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_last_of_empty
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_last_of_empty
           timeout: 10
           max-score: 1
 
@@ -145,7 +145,7 @@ jobs:
         with:
           test-name: Append_To_Empty_Sets_Next
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_empty_list_sets_next_of_sentinel_to_new_node
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_empty_list_sets_next_of_sentinel_to_new_node
           timeout: 10
           max-score: 1
 
@@ -155,7 +155,7 @@ jobs:
         with:
           test-name: Append_To_Empty_Sets_Previous
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_empty_list_sets_previous_of_sentinel_to_new_node
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_empty_list_sets_previous_of_sentinel_to_new_node
           timeout: 10
           max-score: 1
 
@@ -165,7 +165,7 @@ jobs:
         with:
           test-name: Append_To_Empty_Sets_New_Previous_To_Sentinel
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_empty_list_sets_previous_of_new_node_to_sentinel
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_empty_list_sets_previous_of_new_node_to_sentinel
           timeout: 10
           max-score: 1
 
@@ -175,7 +175,7 @@ jobs:
         with:
           test-name: Append_To_Empty_Sets_New_Next_To_Sentinel
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_empty_list_sets_next_of_new_node_to_sentinel
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_empty_list_sets_next_of_new_node_to_sentinel
           timeout: 10
           max-score: 1
 
@@ -185,7 +185,7 @@ jobs:
         with:
           test-name: Two_Nodes_Not_Empty
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_list_with_two_nodes_is_not_empty
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_list_with_two_nodes_is_not_empty
           timeout: 10
           max-score: 1
 
@@ -195,7 +195,7 @@ jobs:
         with:
           test-name: First_Of_Two_Not_Last
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_first_of_two_nodes_is_not_last
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_first_of_two_nodes_is_not_last
           timeout: 10
           max-score: 1
 
@@ -205,7 +205,7 @@ jobs:
         with:
           test-name: Second_Of_Two_Is_Last
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_second_of_two_nodes_is_last_node
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_second_of_two_nodes_is_last_node
           timeout: 10
           max-score: 1
 
@@ -215,7 +215,7 @@ jobs:
         with:
           test-name: Last_Of_Two
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_last_of_two_nodes
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_last_of_two_nodes
           timeout: 10
           max-score: 1
 
@@ -225,7 +225,7 @@ jobs:
         with:
           test-name: Append_Third_Keeps_Sentinel_Next
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_two_node_list_next_of_sentinel_is_second
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_two_node_list_next_of_sentinel_is_second
           timeout: 10
           max-score: 1
 
@@ -235,7 +235,7 @@ jobs:
         with:
           test-name: Append_Third_Second_Previous_Is_Sentinel
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_two_node_list_previous_of_second_is_sentinel
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_two_node_list_previous_of_second_is_sentinel
           timeout: 10
           max-score: 1
 
@@ -245,7 +245,7 @@ jobs:
         with:
           test-name: Append_Third_Second_Next_Is_Third
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_two_node_list_next_of_second_is_third
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_two_node_list_next_of_second_is_third
           timeout: 10
           max-score: 1
 
@@ -255,7 +255,7 @@ jobs:
         with:
           test-name: Append_Third_Third_Previous_Is_Second
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_two_node_list_previous_of_third_is_second
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_two_node_list_previous_of_third_is_second
           timeout: 10
           max-score: 1
 
@@ -265,7 +265,7 @@ jobs:
         with:
           test-name: Append_Third_Third_Next_Is_Sentinel
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_two_node_list_sets_next_of_third_node_to_sentinel
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_two_node_list_sets_next_of_third_node_to_sentinel
           timeout: 10
           max-score: 1
 
@@ -275,7 +275,7 @@ jobs:
         with:
           test-name: Append_Third_Sentinel_Previous_Is_Third
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_two_node_list_sets_previous_of_sentinel_to_third_node
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_two_node_list_sets_previous_of_sentinel_to_third_node
           timeout: 10
           max-score: 1
 
@@ -285,7 +285,7 @@ jobs:
         with:
           test-name: Last_Of_Three
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_last_of_three_nodes
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_last_of_three_nodes
           timeout: 10
           max-score: 1
 
@@ -295,7 +295,7 @@ jobs:
         with:
           test-name: Append_To_Three
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_append_to_three_node_list
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_append_to_three_node_list
           timeout: 10
           max-score: 1
 
@@ -305,7 +305,7 @@ jobs:
         with:
           test-name: Delete_Middle
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_delete
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_delete
           timeout: 10
           max-score: 1
 
@@ -315,7 +315,7 @@ jobs:
         with:
           test-name: Insert_Between
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_insert
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_insert
           timeout: 10
           max-score: 1
 
@@ -325,7 +325,7 @@ jobs:
         with:
           test-name: At_Position
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_at
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_at
           timeout: 10
           max-score: 1
 
@@ -335,7 +335,7 @@ jobs:
         with:
           test-name: Search_Not_Found
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_search_returns_none_when_not_found
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_search_returns_none_when_not_found
           timeout: 10
           max-score: 1
 
@@ -345,7 +345,7 @@ jobs:
         with:
           test-name: Search_Found
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_search_returns_node_when_found
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_search_returns_node_when_found
           timeout: 10
           max-score: 1
 
@@ -355,7 +355,7 @@ jobs:
         with:
           test-name: Insert_In_Order_Empty
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_insert_in_order_when_empty
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_insert_in_order_when_empty
           timeout: 10
           max-score: 1
 
@@ -365,7 +365,7 @@ jobs:
         with:
           test-name: Insert_In_Order_Less_Than
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_insert_in_order_less_than
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_insert_in_order_less_than
           timeout: 10
           max-score: 1
 
@@ -375,7 +375,7 @@ jobs:
         with:
           test-name: Insert_In_Order_Greater_Than
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_insert_in_order_greater_than
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_insert_in_order_greater_than
           timeout: 10
           max-score: 1
 
@@ -385,7 +385,7 @@ jobs:
         with:
           test-name: Insert_In_Order_Maintains_Order
           setup-command: ''
-          command: python3 -m unittest test_linked_list.TestLinkedList.test_insert_in_order_maintains_order_of_values
+          command: python3 -m unittest -v tests_autograder.tests_all.TestLinkedList.test_insert_in_order_maintains_order_of_values
           timeout: 10
           max-score: 1
 
